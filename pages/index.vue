@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container black-bg">
 
     <Header cor="white" />
 
@@ -35,7 +35,4 @@ export default {}
 </script>
 
 <style scoped>
-  .container {
-    background-color: black;
-  }
 </style>
