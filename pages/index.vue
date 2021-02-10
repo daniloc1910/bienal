@@ -39,7 +39,24 @@ export default {}
 </script>
 
 <style scoped>
-.exemplo-home {
-  grid-column: 1/7;
+/*
+.page-enter-active,
+.page-leave-active {
+  transition-duration: 1s;
+  transition: 1s;
 }
+
+.page-leave-to .intro {
+  transition: 0.5s;
+  transition-duration: 0.5s;
+  transform: translateY(10vh);
+  opacity: 0;
+}
+
+.page-leave-to .intro-1 {
+  transition: 0.5s;
+  transition-duration: 0.5s;
+  color: red !important;
+}
+*/
 </style>

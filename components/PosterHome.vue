@@ -2,7 +2,7 @@
   <n-link class="thumb" :to="link">
 
     <div class="ano h1 white">{{ano}}</div>
-    <img class="header-logo" :src="require('~/assets/poster/'+img)">
+    <img :src="require('~/assets/poster/'+img)">
 
   </n-link>
 </template>

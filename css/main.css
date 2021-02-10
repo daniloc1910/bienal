@@ -215,6 +215,50 @@ img {
     margin-top: 100px;
 }
 
+.sobre-fotobienal-credits {
+    grid-column: 1/7;
+    margin-top: 47px;
+}
+
+.sobre-fotobienal-text {
+    grid-column: 7/13;
+    margin-top: 40px;
+}
+
+.aloisio {
+    margin-top: 344px;
+}
+
+.aloisio-title {
+    grid-column: 1/13;
+    margin-bottom: 160px;
+}
+
+.profile-aloisio {
+    grid-column: 1/7;   
+}
+
+.foto-aloisio {
+    margin-bottom: 48px;
+}
+
+.texto-aloisio {
+    grid-column: 7/13;
+}
+
+
+/* POSTER */
+
+.close-button {
+    position: fixed;
+    right: 40px;
+    top: 48px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    opacity: 0.5;
+}
 
 
 
@@ -316,6 +360,43 @@ img {
     .sobre-fotobienal {
         grid-column: 1/3;
         margin-top: 100px;
+    }
+
+    .sobre-fotobienal-credits {
+        grid-column: 1/3;
+        margin-top: 16px;
+    }
+    
+    .sobre-fotobienal-text {
+        grid-column: 1/3;
+        margin-top: 40px;
+    }
+
+    .aloisio {
+        margin-top: 200px;
+    }
+    
+    .aloisio-title {
+        grid-column: 1/3;
+        margin-bottom: 40px;
+    }
+    
+    .profile-aloisio {
+        grid-column: 1/3;   
+    }
+    
+    .foto-aloisio {
+        margin-bottom: 16px;
+    }
+    
+    .texto-aloisio {
+        grid-column: 1/3;
+        margin-top: 40px;
+    }
+
+    .close-button {
+        right: 16px;
+        top: 28px;
     }
 
 }

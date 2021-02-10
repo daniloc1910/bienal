@@ -20,8 +20,7 @@ export default {
 
   css: ['~/css/main.css'],
 
-  plugins: [
-  ],
+  plugins: [],
 
   components: true,
 

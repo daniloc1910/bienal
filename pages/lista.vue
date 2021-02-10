@@ -6,7 +6,7 @@
       <div class="grid lista-container">
 
         <div class="lista-items">
-          <ListaItem ano="1951" artista="Antônio Maluf" link="#" />
+          <ListaItem ano="1951" artista="Antônio Maluf" link="/poster/1951" />
           <ListaItem ano="1953" artista="Antônio Bandera" link="#"  />
           <ListaItem ano="1955" artista="Alexandre Wollner" link="#"  />
           <ListaItem ano="1957" artista="Alexandre Wollner" link="#"  />
