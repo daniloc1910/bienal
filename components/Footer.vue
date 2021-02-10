@@ -30,12 +30,10 @@
 export default {
   props: {
     cor: {
-      type: String,
-      required: true
+      type: String
     },
     corbg: {
-      type: String,
-      required: true
+      type: String
     },
   }
 }
@@ -78,4 +76,35 @@ export default {
         grid-column: 1/13;
         margin: 20px 0 20px 0;
     }
+
+  @media (max-width: 1023px) {
+    .footer {
+        margin-top: 100px;
+    }
+
+    .ftlinha-div {
+        grid-column: 1/3;
+        margin: 0 0 10px 0;
+    }
+
+    .header-links li:first-child {
+        margin-right: 30px;
+    }
+      
+    .footer-texto {
+        grid-column: 1/3;
+        margin: 0 0 20px 0;
+    }
+
+    .header-links {
+        right: 16px;
+        bottom: 35px;
+    }
+
+    .footer-logo {
+        grid-column: 1/2;
+        width: 90px;
+        margin: 10px 0 16px 0;
+    }
+  }
 </style>

@@ -17,8 +17,8 @@
       </n-link>
 
       <ul :class="'medium-p header-links ' +cor">
-          <li><n-link :class="cor" to="/lista">Lista</n-link></li>
-          <li><n-link :class="cor" to="#">Sobre</n-link></li>
+          <li><n-link exact-active-class="link-ativo" :class="cor" to="/lista">Lista</n-link></li>
+          <li><n-link exact-active-class="link-ativo" :class="cor" to="/sobre">Sobre</n-link></li>
       </ul>
 
   </div>
@@ -28,8 +28,7 @@
 export default {
   props: {
     cor: {
-      type: String,
-      required: true
+      type: String
     },
   }
 }
@@ -38,23 +37,27 @@ export default {
 <style scoped>
     .header-logo {
         position: fixed;
-        left: 40px;
-        top: 30px;
-        width: 100px;
+        left: 16px;
+        top: 16px;
+        width: 90px;
     }
 
     .header-links {
         display: flex;
         position: fixed;
-        right: 40px;
-        top: 42px;
+        right: 16px;
+        top: 28px;
     }
 
     .header-links li:first-child {
-        margin-right: 40px;
+        margin-right: 30px;
     }
 
     .header-links li:hover {
         opacity: 0.5;
+    }
+
+    .link-ativo {
+      opacity: 0.5;
     }
 </style>

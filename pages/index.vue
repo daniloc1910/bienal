@@ -5,9 +5,9 @@
 
     <div class="intro grid">
       <div class="intro-1 h1 white">1951</div>
-      <div class="linha-div" />
+      <div class="linha-div white-bg" />
       <div class="intro-2 h1 white">2021</div>
-      <div class="linha-div" />
+      <div class="linha-div white-bg" />
       <div class="intro-70 h1 white">70</div>
       <div class="intro-anos h1 white">anos</div>
 
@@ -22,8 +22,12 @@
 
     <div class="posters grid">
       <PosterHome ano='51' img='1.jpg' link="#" />
-      <PosterHome ano='52' img='1.jpg' link="#" />
+      <PosterHome ano='53' img='2.jpg' link="#" />
+      <PosterHome ano='55' img='3.jpg' link="#" />
+      <PosterHome ano='57' img='4.jpg' link="#" />
     </div>
+
+        
 
     <Footer corbg="white-bg" cor="white" />
 
@@ -35,4 +39,7 @@ export default {}
 </script>
 
 <style scoped>
+.exemplo-home {
+  grid-column: 1/7;
+}
 </style>
