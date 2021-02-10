@@ -22,10 +22,6 @@
           A Bienal é a primeira exposição de arte moderna de grande porte realizada fora dos centros culturais europeus e norte-americanos. Sua origem articula-se a uma série de outras realizações culturais em 
         </div>
 
-
-
-        <Exemplo class="exemplo-lista" />
-
       </div>
 
     <Footer corbg="black-bg" cor="black" />

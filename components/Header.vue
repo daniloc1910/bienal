@@ -37,20 +37,20 @@ export default {
 <style scoped>
     .header-logo {
         position: fixed;
-        left: 16px;
-        top: 16px;
-        width: 90px;
+        left: 40px;
+        top: 36px;
+        width: 110px;
     }
 
     .header-links {
         display: flex;
         position: fixed;
-        right: 16px;
-        top: 28px;
+        right: 40px;
+        top: 48px;
     }
 
     .header-links li:first-child {
-        margin-right: 30px;
+        margin-right: 40px;
     }
 
     .header-links li:hover {
@@ -60,4 +60,23 @@ export default {
     .link-ativo {
       opacity: 0.5;
     }
+
+  @media (max-width: 1023px) {
+
+      .header-logo {
+        left: 16px;
+        top: 16px;
+        width: 90px;
+    }
+
+    .header-links {
+        right: 16px;
+        top: 28px;
+    }
+
+    .header-links li:first-child {
+        margin-right: 30px;
+    }
+
+  }
 </style>
