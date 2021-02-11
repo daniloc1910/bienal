@@ -61,6 +61,7 @@ export default {
       opacity: 0.5;
     }
 
+
   @media (max-width: 1023px) {
 
       .header-logo {

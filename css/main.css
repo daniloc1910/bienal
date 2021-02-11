@@ -26,11 +26,24 @@ html {
 	font-family: 'Helvetica Neue Regular', Helvetica, Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+    background-color: black;
 }
 
 img {
     width: 100%;
 }
+
+
+.page-enter-active,
+.page-leave-active { 
+    transition: 1s;
+}
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+
 
 
 /* GRID */
@@ -41,6 +54,7 @@ img {
     column-gap: 32px;
     padding: 0 40px 0 40px;
 }
+
 
 
 /* COLORS */
@@ -124,10 +138,12 @@ img {
 }
 
 
+
+
 /* HOME */
 
 .intro {
-    padding-top: 127px;;
+    padding-top: 127px;
 }
 
 .linha-div {

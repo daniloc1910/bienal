@@ -21,13 +21,11 @@
     </div>
 
     <div class="posters grid">
-      <PosterHome ano='51' img='1.jpg' link="#" />
+      <PosterHome ano='51' img='1.jpg' link="/poster/1951" />
       <PosterHome ano='53' img='2.jpg' link="#" />
       <PosterHome ano='55' img='3.jpg' link="#" />
       <PosterHome ano='57' img='4.jpg' link="#" />
-    </div>
-
-        
+    </div>      
 
     <Footer corbg="white-bg" cor="white" />
 
@@ -39,24 +37,17 @@ export default {}
 </script>
 
 <style scoped>
-/*
-.page-enter-active,
-.page-leave-active {
-  transition-duration: 1s;
-  transition: 1s;
+.carousel {
+  grid-column: 1/7;
+  height: 100%;
 }
 
-.page-leave-to .intro {
-  transition: 0.5s;
-  transition-duration: 0.5s;
-  transform: translateY(10vh);
-  opacity: 0;
+.masonry {
+  grid-column: 1/13;
 }
 
-.page-leave-to .intro-1 {
-  transition: 0.5s;
-  transition-duration: 0.5s;
-  color: red !important;
+.carousel-cell {
+  width: 100%;
+  height: 100vh;
 }
-*/
 </style>

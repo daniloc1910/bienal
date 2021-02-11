@@ -20,7 +20,10 @@ export default {
 
   css: ['~/css/main.css'],
 
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/masonry.js', ssr: false },
+    { src: '~/plugins/flickity.js', ssr: false },
+   ],
 
   components: true,
 
