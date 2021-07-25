@@ -25,152 +25,36 @@
         </div>
       </div>
 
-      <nuxt-img
-        class="poster"
-        src="/poster/12.jpg"
-        sizes="s:100vw m:100vw l:100vw"
-      />
+      <img class="poster" :src="require('~/assets/poster/12.jpg')" />
 
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-2.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-3.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-4.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-5.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-6.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-7.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-8.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-9.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-10.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-11.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-12.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-13.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-14.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-15.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-16.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-17.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-18.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-19.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-20.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-21.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-22.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-23.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-24.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-25.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-26.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-27.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-28.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
-      <nuxt-img
-        class="poster-pq"
-        src="/poster/12/12-29.jpg"
-        sizes="s:50vw m:50vw l:50vw"
-      />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-2.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-3.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-4.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-5.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-6.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-7.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-8.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-9.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-10.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-11.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-12.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-13.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-14.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-15.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-16.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-17.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-18.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-19.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-20.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-21.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-22.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-23.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-24.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-25.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-26.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-27.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-28.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-29.jpg')" />
     </div>
 
     <div class="grid">
