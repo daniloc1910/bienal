@@ -108,10 +108,7 @@ export default {
 
   css: ['~/css/main.css'],
 
-  plugins: [
-    { src: '~/plugins/masonry.js', ssr: false },
-    { src: '~/plugins/flickity.js', ssr: false },
-  ],
+  plugins: [{ src: '~/plugins/masonry.js', ssr: false }],
 
   components: true,
 
