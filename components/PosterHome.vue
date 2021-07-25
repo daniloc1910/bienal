@@ -1,7 +1,7 @@
 <template>
   <n-link class="thumb" :to="'/poster/' + link">
     <div class="ano h1 white">{{ ano }}</div>
-    <nuxt-img :src="'/poster/' + ano + '.jpg'" sizes="s:100vw m:50vw l:50vw" />
+    <img :src="require('~/assets/poster/' + ano + '.jpg')" />
   </n-link>
 </template>
 
