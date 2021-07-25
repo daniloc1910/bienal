@@ -79,4 +79,27 @@ export default {
   grid-column: 9/13;
   margin-bottom: 100px;
 }
+
+@media (max-width: 1023px) {
+  .title {
+    font-size: 48px;
+  }
+  .anoautor {
+    grid-column: 1/3;
+    padding-top: 160px;
+  }
+
+  .description {
+    grid-column: 1/3;
+    margin-top: 32px;
+  }
+
+  .poster {
+    grid-column: 1/3;
+  }
+
+  .info {
+    grid-column: 1/3;
+  }
+}
 </style>

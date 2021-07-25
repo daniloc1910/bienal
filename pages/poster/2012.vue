@@ -123,5 +123,32 @@ export default {
   .container {
     height: 100%;
   }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .anoautor {
+    grid-column: 1/3;
+    padding-top: 160px;
+  }
+
+  .description {
+    grid-column: 1/3;
+    margin-top: 32px;
+  }
+
+  .poster {
+    grid-column: 1/3;
+  }
+
+  .info {
+    grid-column: 1/3;
+  }
+
+  .poster-pq {
+    grid-column: span 1;
+    margin-bottom: 20px;
+  }
 }
 </style>
