@@ -10,9 +10,10 @@
       <div class="intro-70 h1 black">70</div>
       <div class="intro-anos h1 black">anos</div>
 
-      <img
+      <nuxt-img
         class="sobre-fotobienal"
-        :src="require('~/assets/img/bienal-sobre.png')"
+        src="/img/bienal-sobre.png"
+        sizes="s:100vw m:100vw l:100vw"
       />
       <div class="sobre-fotobienal-credits small-p gray">
         © Levi Fanan<br />Fundação Bienal de São Paulo
@@ -36,9 +37,10 @@
       <div class="aloisio-title h1 black">Aloísio Magalhães</div>
 
       <div class="profile-aloisio">
-        <img
+        <nuxt-img
           class="foto-aloisio"
-          :src="require('~/assets/img/aloisiomagalhaes.png')"
+          src="/img/aloisiomagalhaes.png"
+          sizes="s:100vw m:50vw l:50vw"
         />
         <div class="foto-aloisio-description small-p gray">
           © Aloisio em reunião na Secretaria da Cultura, em 1982.<br />Imagem:

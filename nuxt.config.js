@@ -115,9 +115,18 @@ export default {
 
   components: true,
 
-  buildModules: [],
+  buildModules: ['@nuxt/image'],
 
   modules: [],
 
   build: {},
+
+  image: {
+    // The screen sizes predefined by `@nuxt/image`:
+    screens: {
+      s: 1024,
+      m: 1600,
+      l: 2500,
+    },
+  },
 }
