@@ -24,16 +24,13 @@ export default {
   margin-bottom: 40px;
   transition: 0.6s;
 }
-
 .thumb:hover img {
   opacity: 0.4;
   transition: 0.6s;
 }
-
 .ano {
   margin-bottom: 30px;
 }
-
 @media (max-width: 1023px) {
   .thumb {
     grid-column: span 2;

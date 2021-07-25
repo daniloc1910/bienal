@@ -9,24 +9,16 @@
       <div class="p white">{{ descricao }}</div>
     </div>
 
-    <nuxt-img
-      class="poster"
-      :src="'/poster/' + img + '.jpg'"
-      sizes="s:100vw m:100vw l:100vw"
-    />
-
-    <nuxt-img
+    <img class="poster" :src="require('~/assets/poster/' + img + '.jpg')" />
+    <img
       v-if="img2"
       class="poster"
-      :src="'/poster/' + img2 + '.jpg'"
-      sizes="s:100vw m:50vw l:50vw"
+      :src="require('~/assets/poster/' + img2 + '.jpg')"
     />
-
-    <nuxt-img
+    <img
       v-if="img3"
       class="poster"
-      :src="'/poster/' + img3 + '.jpg'"
-      sizes="s:100vw m:50vw l:50vw"
+      :src="require('~/assets/poster/' + img3 + '.jpg')"
     />
 
     <div class="info">
@@ -70,23 +62,19 @@ export default {
   line-height: 90%;
   letter-spacing: -0.03em;
 }
-
 .anoautor {
   grid-column: 7/13;
   padding-top: 44px;
 }
-
 .description {
   grid-column: 7/13;
   margin-top: 500px;
   margin-bottom: 48px;
 }
-
 .poster {
   grid-column: 1/13;
   margin-bottom: 48px;
 }
-
 .info {
   grid-column: 9/13;
   margin-bottom: 100px;
