@@ -1,8 +1,8 @@
 <template>
-  <n-link class="thumb" :to="link">
+  <n-link class="thumb" :to="'/poster/'+link">
 
     <div class="ano h1 white">{{ano}}</div>
-    <img :src="require('~/assets/poster/'+img)">
+    <img :src="require('~/assets/poster/'+ano+'.jpg')">
 
   </n-link>
 </template>
@@ -11,9 +11,6 @@
 export default {
   props: {
     ano: {
-      type: String
-    },
-    img: {
       type: String
     },
     link: {
@@ -25,12 +22,18 @@ export default {
 
 <style scoped>
     .thumb {
-        grid-column: span 6;
-        margin-bottom: 40px;
+      grid-column: span 6;
+      margin-bottom: 40px;
+      transition: 0.6s;
+    }
+
+    .thumb:hover img {
+      opacity: 0.4;
+      transition: 0.6s;
     }
 
     .ano {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
   @media (max-width: 1023px) {

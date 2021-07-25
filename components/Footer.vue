@@ -19,8 +19,8 @@
       </div>
 
       <ul :class="'medium-p header-links '+cor">
-          <li><a :class="cor" href="#">Site oficial</a></li>
-          <li><a :class="cor" href="#">Instagram</a></li>
+          <li><a :class="cor" target="_blank" href="http://bienal.org.br">Site oficial</a></li>
+          <li><a :class="cor" target="_blank" href="https://www.instagram.com/bienalsaopaulo">Instagram</a></li>
       </ul>
 
   </div>

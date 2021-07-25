@@ -1,5 +1,5 @@
 <template>
-  <n-link :to="link" class="lista-item">
+  <n-link :to="'/poster/'+ano" class="lista-item">
 
     <ul class="lista-lista p black">
       <li class="ano">{{ano}}</li>

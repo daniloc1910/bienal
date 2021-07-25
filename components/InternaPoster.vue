@@ -1,63 +1,79 @@
 <template>
     <div class="id-poster grid">
-        
-        <img class="poster" :src="require('~/assets/poster/1.jpg')">
+        <div class="anoautor">
+            <div class="title white ano">{{ano}}</div>
+            <div class="title white autor">{{artista}}</div>
+        </div>
+
         <div class="description">
-            <div class="ano h1 white">51</div>
-            <div class="artista h2 white">Antônio Maluf</div>
-            <div class="description p white">A primeira edição da Bienal foi realizada pelo Museu de Arte Moderna de São Paulo (MAM-SP) em um pavilhão provisório localizado na Esplanada do Trianon, na região da Avenida Paulista. Na edição, o primeiro Aparelho cinecromático (1949) de Abraham Palatnik foi recusado por não se encaixar nas categorias previstas. Posteriormente, a obra seria aceita e receberia uma menção especial do júri internacional.</div>
+            <div class="p white">{{descricao}}</div>
+        </div>
+        
+        <img class="poster" :src="require('~/assets/poster/'+img+'.jpg')">
+        <img v-if="img2" class="poster" :src="require('~/assets/poster/'+img2+'.jpg')">
+        <img v-if="img3" class="poster" :src="require('~/assets/poster/'+img3+'.jpg')">
+        
+        <div class="info">
+            <div class="medium-p gray" v-html="info" />
         </div>
 
     </div>
 </template>
 
+<script>
+export default {
+  props: {
+    ano: {
+      type: String
+    },
+    artista: {
+      type: String
+    },
+    descricao: {
+      type: String
+    },
+    img: {
+      type: String
+    },
+    img2: {
+      type: String
+    },
+    img3: {
+      type: String
+    },
+    info: {
+      type: String
+    },
+  }
+}
+</script>
+
 <style scoped>
-    .poster {
-        grid-column: 1/7;
-        width: auto;
-        height: calc(100vh - 80px);
+    .title {
+        font-family: 'Helvetica Neue Medium', Helvetica, Arial, sans-serif;
+        font-size: 80px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
     }
 
-    .id-poster {
-        height: calc(100vh - 80px);
-        padding: 40px 40px 40px 40px;
+    .anoautor {
+        grid-column: 7/13;
+        padding-top: 44px;
     }
 
     .description {
+        grid-column: 7/13;
+        margin-top: 500px;
+        margin-bottom: 48px;
+    }
+
+    .poster {
+        grid-column: 1/13;
+        margin-bottom: 48px;
+    }
+
+    .info {
         grid-column: 9/13;
-        align-self: end;
-    }
-
-    .ano {
-        margin-bottom: 30px;
-    }
-
-    .artista {
-        margin-bottom: 22px;
-    }
-
-    @media (max-width: 1023px) {
-
-        .id-poster {
-            height: 100%;
-            padding: 200px 16px 0 16px;
-        }
-
-        .ano {
-            margin-bottom: 0px;
-        }
-
-        .poster {
-            grid-column: 1/3;
-            width: 100%;
-            height: auto;
-            margin-bottom: 40px;
-        }
-
-        .description {
-            grid-column: 1/3;
-            align-self: start;
-            margin-bottom: 40px;
-        }
+        margin-bottom: 100px;
     }
 </style>
