@@ -1,7 +1,7 @@
 const title = 'Bienal 70 anos'
 const url = 'https://bienal.wearetwoo.com'
 const description =
-  'Fundada em 8 de maio de 1962 pelo empresário Ciccillo Matarazzo, a instituição abriga ainda um arquivo histórico sobre arte moderna e contemporânea que é referência na América Latina. Suas ações têm como alvo democratizar o acesso à cultura e estimular o interesse pela criação artística.'
+  'Para celebrar o marco histórico, durante o curso de criação e desenvolvimento de sites realizado pela Twoo em parceria com a Aprender Design, criamos, em conjunto com os alunos, este site comemorativo onde fazemos uma retrospectiva dos 70 anos da Bienal através dos seus cartazes.'
 const cover = '/share.jpg'
 
 export default {
@@ -112,18 +112,9 @@ export default {
 
   components: true,
 
-  buildModules: ['@nuxt/image'],
+  buildModules: [],
 
   modules: [],
 
   build: {},
-
-  image: {
-    // The screen sizes predefined by `@nuxt/image`:
-    screens: {
-      s: 1024,
-      m: 1600,
-      l: 2500,
-    },
-  },
 }

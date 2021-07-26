@@ -1,7 +1,7 @@
 <template>
   <n-link class="thumb" :to="'/poster/' + link">
     <div class="ano h1 white">{{ ano }}</div>
-    <img :src="require('~/assets/poster/' + ano + '.jpg')" />
+    <img :src="require('~/assets/poster/' + ano + '.jpeg')" />
   </n-link>
 </template>
 

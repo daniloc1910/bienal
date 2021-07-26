@@ -9,16 +9,16 @@
       <div class="p white">{{ descricao }}</div>
     </div>
 
-    <img class="poster" :src="require('~/assets/poster/' + img + '.jpg')" />
+    <img class="poster" :src="require('~/assets/poster/' + img + '.jpeg')" />
     <img
       v-if="img2"
       class="poster"
-      :src="require('~/assets/poster/' + img2 + '.jpg')"
+      :src="require('~/assets/poster/' + img2 + '.jpeg')"
     />
     <img
       v-if="img3"
       class="poster"
-      :src="require('~/assets/poster/' + img3 + '.jpg')"
+      :src="require('~/assets/poster/' + img3 + '.jpeg')"
     />
 
     <div class="info">

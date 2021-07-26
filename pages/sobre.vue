@@ -12,7 +12,7 @@
 
       <img
         class="sobre-fotobienal"
-        :src="require('~/assets/img/bienal-sobre.png')"
+        :src="require('~/assets/img/bienal-sobre.jpeg')"
       />
       <div class="sobre-fotobienal-credits small-p gray">
         © Levi Fanan<br />Fundação Bienal de São Paulo
@@ -38,7 +38,7 @@
       <div class="profile-aloisio">
         <img
           class="foto-aloisio"
-          :src="require('~/assets/img/aloisiomagalhaes.png')"
+          :src="require('~/assets/img/aloisiomagalhaes.jpeg')"
         />
         <div class="foto-aloisio-description small-p gray">
           © Aloisio em reunião na Secretaria da Cultura, em 1982.<br />Imagem:
@@ -48,34 +48,27 @@
 
       <div class="texto-aloisio p black">
         Aloísio Sérgio Barbosa de Magalhães
-        <br /><br />(Recife, 5 de novembro de 1927 — Pádua, 13 de junho de
-        1982)[1] foi um designer gráfico brasileiro. É considerado pioneiro na
+        <br /><br />(Recife, 5 de novembro de 1927 — Pádua, 13 de junho de 1982)
+        foi um designer gráfico brasileiro criador do símbolo da Bienal
+        Internacional de São Paulo em 1965. O símbolo foi pensado originalmente
+        como expressão tridimensional, tal qual uma escultura. Baseada na
+        aproximação visual das letras “b” e “i”, formando a sílaba “bi”, o sinal
+        foi criado para a Fundação Bienal de São Paulo a partir de um concurso
+        restrito à participação de poucos profissionais. Com o projeto, Aloisio
+        Magalhães conquistou o primeiro lugar. <br /><br />
+        Durante a década de 1960, também foi responsável pela criação do
+        logotipo referente ao IV Centenário do Rio de Janeiro, apresentou o
+        primeiro símbolo da emissora de televisão Rede Globo e foi um dos
+        representantes no país na 1.ª Bienal Internacional de Desenho Industrial
+        do Museu de Arte Moderna do Rio de Janeiro, é considerado pioneiro na
         introdução do design moderno no Brasil, tendo ajudado a fundar a
         primeira instituição superior de design no país, intitulada como Escola
-        Superior de Desenho Industrial do Rio de Janeiro (ESDI). Após ter se
-        especializado em design gráfico e comunicação visual nos Estados Unidos,
-        lecionou na Academia de Belas-Artes da Pensilvânia, na Filadélfia.
+        Superior de Desenho Industrial do Rio de Janeiro (ESDI).
         <br /><br />
-        Durante a década de 1960, foi responsável pela criação do logotipo
-        referente ao IV Centenário do Rio de Janeiro, apresentou o primeiro
-        símbolo da emissora de televisão Rede Globo e foi um dos representantes
-        no país na 1.ª Bienal Internacional de Desenho Industrial do Museu de
-        Arte Moderna do Rio de Janeiro.
-        <br /><br />
-        Aloísio Sérgio Barbosa de Magalhães  (Recife, 5 de novembro de 1927 —
-        Pádua, 13 de junho de 1982)[1] foi um designer gráfico brasileiro. É
-        considerado pioneiro na introdução do design moderno no Brasil, tendo
-        ajudado a fundar a primeira instituição superior de design no país,
-        intitulada como Escola Superior de Desenho Industrial do Rio de Janeiro
-        (ESDI). Após ter se especializado em design gráfico e comunicação visual
-        nos Estados Unidos, lecionou na Academia de Belas-Artes da Pensilvânia,
-        na Filadélfia.
-        <br /><br />
-        Durante a década de 1960, foi responsável pela criação do logotipo
-        referente ao IV Centenário do Rio de Janeiro, apresentou o primeiro
-        símbolo da emissora de televisão Rede Globo e foi um dos representantes
-        no país na 1.ª Bienal Internacional de Desenho Industrial do Museu de
-        Arte Moderna do Rio de Janeiro.
+        Em 1998, o presidente Fernando Henrique Cardoso (FHC) edita o Decreto 7
+        508 para definir 5 de novembro como "Dia Nacional do Design", em
+        homenagem ao dia em que Aloísio Magalhães nasceu e pelo mesmo ter sido o
+        pioneiro design gráfico no Brasil.
       </div>
     </div>
 

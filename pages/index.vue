@@ -11,28 +11,24 @@
       <div class="intro-anos h1 white">anos</div>
 
       <div class="intro-text p white">
-        Fundada em 8 de maio de 1962 pelo empresário Ciccillo Matarazzo, a
-        instituição abriga ainda um arquivo histórico sobre arte moderna e
-        contemporânea que é referência na América Latina. Suas ações têm como
-        alvo democratizar o acesso à cultura e estimular o interesse pela
-        criação artística.
+        A Bienal de São Paulo (antiga Bienal Internacional de Arte de São Paulo)
+        é uma exposição de artes que ocorre a cada dois anos na cidade de São
+        Paulo, desde 1951. É considerada um dos três principais eventos do
+        circuito artístico internacional, junto à Bienal de Veneza e Documenta
+        de Kassel.
         <br /><br />
-        A Bienal é a primeira exposição de arte moderna de grande porte
-        realizada fora dos centros culturais europeus e norte-americanos. Sua
-        origem articula-se a uma série de outras realizações culturais em São
-        Paulo - Museu de Arte de São Paulo Assis Chateaubriand - Masp (1947),
-        Teatro Brasileiro de Comédia - TBC (1948), Museu de Arte Moderna de São
-        Paulo - MAM/SP (1949) e Companhia Cinematográfica Vera Cruz (1949) - que
-        aponta para o forte impulso institucional que as artes recebem na época,
-        beneficiado por mecenas como Ciccillo Matarazzo e Assis Chateaubriand
-        (1892 - 1968).
+        A Bienal de São Paulo é um evento que estabelece referências não só para
+        o campo das artes plásticas, mas também para outras produções artísticas
+        modernas e contemporâneas. Através da história das Bienais, também
+        podemos observar a história do design gráfico brasileiro, criada para
+        cada mostra, podemos ver nos cartazes o reflexo das tendências e
+        preocupações estéticas de cada período.
         <br /><br />
-        Maior exposição do hemisfério sul, a Bienal é pautada por questões
-        inovadoras do cenário contemporâneo e reúne mais de 500 mil pessoas por
-        edição. Cada Bienal atrai olhares do mundo inteiro, movimenta a economia
-        da cidade de São Paulo e reafirma as missões que guiaram seu surgimento:
-        compromisso com as artes visuais, formação do olhar e desenvolvimento da
-        cena cultural brasileira.
+        Para celebrar o marco histórico, durante o curso de criação e
+        desenvolvimento de sites realizado pela Twoo em parceria com a Aprender
+        Design, criamos, em conjunto com os alunos, este site comemorativo onde
+        fazemos uma retrospectiva dos 70 anos da Bienal através dos seus
+        cartazes.
       </div>
     </div>
 

@@ -25,36 +25,36 @@
         </div>
       </div>
 
-      <img class="poster" :src="require('~/assets/poster/12.jpg')" />
+      <img class="poster" :src="require('~/assets/poster/12.jpeg')" />
 
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-2.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-3.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-4.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-5.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-6.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-7.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-8.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-9.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-10.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-11.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-12.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-13.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-14.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-15.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-16.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-17.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-18.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-19.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-20.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-21.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-22.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-23.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-24.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-25.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-26.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-27.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-28.jpg')" />
-      <img class="poster-pq" :src="require('~/assets/poster/12/12-29.jpg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-2.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-3.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-4.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-5.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-6.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-7.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-8.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-9.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-10.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-11.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-12.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-13.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-14.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-15.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-16.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-17.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-18.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-19.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-20.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-21.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-22.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-23.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-24.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-25.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-26.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-27.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-28.jpeg')" />
+      <img class="poster-pq" :src="require('~/assets/poster/12/12-29.jpeg')" />
     </div>
 
     <div class="grid">
